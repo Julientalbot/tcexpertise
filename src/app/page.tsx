@@ -62,12 +62,12 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-gray-900 mb-8">À propos de TC EXPERTISE</h2>
             <div className="text-lg text-gray-600 space-y-6">
               <p>
-                Fondé en juin 2024 par Thierry CHAN KIM PONNE, TC EXPERTISE s'impose comme un véritable partenaire 
+                Fondé en juin 2024 par Thierry CHAN KIM PONNE, TC EXPERTISE s&apos;impose comme un véritable partenaire 
                 pour les entrepreneurs souhaitant structurer, développer et pérenniser leur activité.
               </p>
               <p className="text-xl font-semibold text-gray-900">
-                "Plus qu'un cabinet comptable, TC EXPERTISE est un véritable partenaire pour les entrepreneurs 
-                qui veulent structurer, développer et pérenniser leur entreprise."
+                &ldquo;Plus qu&apos;un cabinet comptable, TC EXPERTISE est un véritable partenaire pour les entrepreneurs 
+                qui veulent structurer, développer et pérenniser leur entreprise.&rdquo;
               </p>
             </div>
           </div>
@@ -84,8 +84,8 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Création d'Entreprise</h3>
-              <p className="text-gray-600">Accompagnement complet dans vos démarches de création et structuration d'entreprise</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Création d&apos;Entreprise</h3>
+              <p className="text-gray-600">Accompagnement complet dans vos démarches de création et structuration d&apos;entreprise</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Gestion Comptable, Fiscale & Juridique</h3>
@@ -100,7 +100,7 @@ export default function Home() {
           <div className="mt-16 text-center">
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">Services Distinctifs</h3>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto">
-              Nous disposons d'un réseau de partenaires professionnels qualifiés : avocats, notaires, 
+              Nous disposons d&apos;un réseau de partenaires professionnels qualifiés : avocats, notaires, 
               spécialistes fiscaux, banques, experts RH pour vous offrir un accompagnement complet.
             </p>
           </div>
