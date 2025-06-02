@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -50,13 +52,15 @@ export default function Home() {
               </div>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-blue-100 to-green-100 rounded-3xl p-8 h-96 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <div className="w-24 h-24 bg-white rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl">📸</span>
-                  </div>
-                  <p className="font-light">Photo portrait<br/>Thierry Chan Kim Ponne</p>
-                </div>
+              <div className="bg-gradient-to-br from-blue-100 to-green-100 rounded-3xl p-4 h-96 overflow-hidden">
+                <Image
+                  src="/thierry_01.png"
+                  alt="Thierry Chan Kim Ponne, Expert-Comptable"
+                  width={400}
+                  height={400}
+                  className="w-full h-full object-cover object-center rounded-2xl"
+                  priority
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-xl shadow-lg">
                 <p className="text-sm font-medium text-gray-900">Expert-Comptable DSCG</p>
@@ -124,13 +128,14 @@ export default function Home() {
                   — Thierry Chan Kim Ponne, Fondateur TC EXPERTISE
                 </p>
               </div>
-              <div className="bg-white rounded-xl p-6 h-64 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <div className="w-20 h-20 bg-gray-100 rounded-full mx-auto mb-3 flex items-center justify-center">
-                    <span className="text-xl">📸</span>
-                  </div>
-                  <p className="font-light text-sm">Photo bureau<br/>ou lifestyle</p>
-                </div>
+              <div className="bg-white rounded-xl p-3 h-64 overflow-hidden">
+                <Image
+                  src="/thierry_02.png"
+                  alt="Thierry Chan Kim Ponne au travail"
+                  width={300}
+                  height={250}
+                  className="w-full h-full object-cover object-center rounded-lg"
+                />
               </div>
             </div>
           </div>
@@ -292,6 +297,17 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-light text-gray-900 mb-4">Ils me font confiance</h2>
+            <div className="flex justify-center mb-8">
+              <div className="w-24 h-24 rounded-full overflow-hidden shadow-lg">
+                <Image
+                  src="/thierry_04.png"
+                  alt="Thierry Chan Kim Ponne"
+                  width={96}
+                  height={96}
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+            </div>
           </div>
           
           <div className="grid lg:grid-cols-3 gap-8">
@@ -385,13 +401,14 @@ export default function Home() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-8 h-80 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <div className="w-16 h-16 bg-white rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl">📸</span>
-                  </div>
-                  <p className="font-light">Photo bureau<br/>ou carte de visite<br/>interactive</p>
-                </div>
+              <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-xl p-4 h-80 overflow-hidden">
+                <Image
+                  src="/thierry_03.png"
+                  alt="Bureau TC EXPERTISE"
+                  width={350}
+                  height={300}
+                  className="w-full h-full object-cover object-center rounded-lg"
+                />
               </div>
             </div>
             
